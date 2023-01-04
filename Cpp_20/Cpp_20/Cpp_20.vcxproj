@@ -128,7 +128,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Cpp_20.cpp" />
+    <ClCompile Include="Cpp_20.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Math.ixx" />
+    <ClCompile Include="MathPartition.ixx" />
+    <ClCompile Include="MathPartition_1.ixx" />
+    <ClCompile Include="MathPartition_2.ixx" />
+    <ClCompile Include="Math_Time.ixx" />
+    <ClCompile Include="module.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
