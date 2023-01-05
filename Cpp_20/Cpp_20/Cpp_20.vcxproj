@@ -136,7 +136,10 @@
     <ClCompile Include="MathPartition_1.ixx" />
     <ClCompile Include="MathPartition_2.ixx" />
     <ClCompile Include="Math_Time.ixx" />
-    <ClCompile Include="module.cpp" />
+    <ClCompile Include="module.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="range.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

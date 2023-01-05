@@ -1,0 +1,9 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\leedeukyu\\desktop\\github\\cpp_20\\cpp_20\\cpp_20\\math_time.ixx",
+        "ProvidedModule": "Math.time",
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

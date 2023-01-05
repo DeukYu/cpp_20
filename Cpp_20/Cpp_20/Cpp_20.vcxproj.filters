@@ -7,6 +7,9 @@
     <Filter Include="Module">
       <UniqueIdentifier>{1b137d63-1398-45e9-acc3-a231510befe6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Range">
+      <UniqueIdentifier>{118ad74a-fd9c-48ba-b1ad-6a35640f6546}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cpp_20.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="MathPartition_2.ixx">
       <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="range.cpp">
+      <Filter>Range</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

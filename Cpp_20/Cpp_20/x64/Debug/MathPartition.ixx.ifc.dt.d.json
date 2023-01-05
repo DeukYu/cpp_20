@@ -4,16 +4,7 @@
         "Source": "c:\\users\\leedeukyu\\desktop\\github\\cpp_20\\cpp_20\\cpp_20\\mathpartition.ixx",
         "ProvidedModule": "MathPartition",
         "Includes": [],
-        "ImportedModules": [
-            {
-                "Name": "MathPartition:MathPartition_1",
-                "BMI": "C:\\Users\\LeeDeukYu\\Desktop\\github\\cpp_20\\Cpp_20\\Cpp_20\\x64\\Debug\\MathPartition_1.ixx.ifc.dt"
-            },
-            {
-                "Name": "MathPartition:MathPartition_2",
-                "BMI": "C:\\Users\\LeeDeukYu\\Desktop\\github\\cpp_20\\Cpp_20\\Cpp_20\\x64\\Debug\\MathPartition_2.ixx.ifc.dt"
-            }
-        ],
+        "ImportedModules": [],
         "ImportedHeaderUnits": []
     }
 }
